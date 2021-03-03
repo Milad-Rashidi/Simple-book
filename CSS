@@ -1,0 +1,78 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px rgb(0 0 0 / 7%);
+    overflow: hidden;
+    background: #c4d2dd;
+    color:#0ba7f0;
+    font-family: 'Condiment';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .book {
+    position: absolute;
+    width: 200px;
+    height: 280px;
+    top: 60px;
+    left: 100px;
+    border-radius: 2px 4px 4px 2px;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%),
+      -1px 4px 4px 0 rgb(0 0 0 / 30%);
+    background: linear-gradient(45deg, #1e1e1e 0%, #4f4f4f 100%);
+  }
+  
+  .book:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 2px 0 0 2px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 20%, rgba(255, 255, 255, 0.1) 45%, rgba(0, 0, 0, 0.15) 49%, rgba(0, 0, 0, 0.15) 84%, rgba(0, 0, 0, 0) 100%);
+  }
+  
+  .book:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10px;
+    top: -1px;
+    right: 25px;
+    bottom: -1px;
+    border-radius: 1px;
+    box-shadow: -1px 0px 1px 0 rgb(0 0 0 / 40%);
+    background: #0ba7f0;
+    background: linear-gradient(to right, #0ba7f0 0%, #0ba7f0 12%, #0ba7f0 25%, #0ba7f0 37%, #0388a9 50%, #0ba7f0 62%, #0ba7f0 75%, #0ba7f0 87%, #0ba7f0 100%);
+  }
+  .book .title {
+    position: absolute;
+    top: 55px;
+    left: 33px;
+  }
+  
+  .book .title .big {
+    font-size: 2.25rem;
+    line-height: 100%;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .book .title .small {
+    font-size: 13px;
+    line-height: 160%;
+    font-weight: 400;
+    font-style: italic;
+    padding-left: 2px;
+    color:#187bcd;    
+  }
+  
